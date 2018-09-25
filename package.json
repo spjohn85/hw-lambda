@@ -1,0 +1,20 @@
+{
+  "name": "aws-nodejs-typescript",
+  "version": "1.0.0",
+  "description": "Serverless webpack example using Typescript",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf ./dist && tsc"
+  },
+  "dependencies": {
+    "pino": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.1",
+    "@types/node": "^8.0.57",
+    "typescript": "^2.9.2",
+    "rimraf": "^2.5.4"
+  },
+  "author": "John Williams"
+}
